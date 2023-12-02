@@ -36,6 +36,7 @@ def get_mos_stages(df):
 
     return df
 
+
 def get_features(df):
     df = get_q_num(df)
     # df = df.drop('Quarter', axis=1)
